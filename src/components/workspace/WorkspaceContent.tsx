@@ -1,4 +1,4 @@
-import { content, topic } from "@/config/workspace.json";
+import { content, topic } from "@/config/demo.json";
 
 const WorkspaceContent = () => {
   return (
