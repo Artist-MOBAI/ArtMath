@@ -1,0 +1,14 @@
+@import "remixicon/fonts/remixicon.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #2560e3;
+  --foreground: #fdfbe5;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}

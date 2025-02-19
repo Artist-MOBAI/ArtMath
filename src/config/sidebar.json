@@ -1,0 +1,48 @@
+{
+  "title": "Artmath Demo",
+  "list": [
+    {
+      "name": "1. Mathematical Modellings"
+    },
+    {
+      "name": "2. Measures of Location and Spread"
+    },
+    {
+      "name": "3. Representations of Data"
+    },
+    {
+      "name": "4. Probability"
+    },
+    {
+      "name": "5. Correlations and Regression"
+    },
+    {
+      "name": "6. Discrete Random Variables"
+    },
+    {
+      "name": "7. The Normal Distribution"
+    }
+  ],
+  "nav": [
+    {
+      "name": "Home",
+      "icon": "ri-home-2-line"
+    },
+    {
+      "name": "Courses",
+      "icon": "ri-book-open-line"
+    },
+    {
+      "name": "Chat",
+      "icon": "ri-chat-smile-2-line"
+    },
+    {
+      "name": "Settings",
+      "icon": "ri-settings-2-line"
+    },
+    {
+      "name": "Logout",
+      "icon": "ri-logout-box-line"
+    }
+  ]
+}

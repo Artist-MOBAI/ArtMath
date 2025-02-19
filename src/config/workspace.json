@@ -1,0 +1,28 @@
+{
+  "title": "Workspace",
+  "description": "This is a lesson demo.",
+  "topic": "数学艺术课",
+  "content": [
+    {
+      "page": 1,
+      "type": "teacher",
+      "canvas": "/test/flower.ts",
+      "function": "createFlower",
+      "content": "描绘花朵绽放的场景"
+    },
+    {
+      "page": 2,
+      "type": "teacher",
+      "canvas": "/test/vectors.ts",
+      "function": "createVectors",
+      "content": "绘制一幅具有动感的矢量图像"
+    },
+    {
+      "page": 3,
+      "type": "teacher",
+      "canvas": "/test/main.ts",
+      "function": "createButterfly",
+      "content": "在上一幅图像基础上加入蝴蝶图像"
+    }
+  ]
+}
