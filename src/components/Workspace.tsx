@@ -5,7 +5,7 @@ import WorkspaceFooter from "./workspace/WorkspaceFooter";
 
 const Workspace = () => {
   return (
-    <div className="flex h-full flex-col justify-between bg-[var(--foreground)] text-[var(--background)]">
+    <div className="flex h-full flex-col justify-between bg-[var(--foreground)] text-[var(--background)] overflow-y-auto">
       <Header title={title} />
       <WorkspaceContent />
       <WorkspaceFooter />

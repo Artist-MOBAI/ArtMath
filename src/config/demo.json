@@ -4,25 +4,34 @@
   "topic": "数学艺术课",
   "content": [
     {
-      "page": 1,
       "type": "teacher",
-      "canvas": "/test/flower.ts",
-      "function": "createFlower",
-      "content": "描绘花朵绽放的场景"
+      "canvas": "flower",
+      "content": "绘制玫瑰曲线花朵。花瓣数量由k控制，大小由a决定。花瓣颜色和透明度随时间变化。可拖动元素改变位置。"
     },
     {
-      "page": 2,
       "type": "teacher",
-      "canvas": "/test/vectors.ts",
-      "function": "createVectors",
-      "content": "绘制一幅具有动感的矢量图像"
+      "canvas": "vectors",
+      "content": "8个动态向量从中心旋转，形成圆形图案。三角形随时间变形。可拖动改变位置。"
     },
     {
-      "page": 3,
       "type": "teacher",
-      "canvas": "/test/main.ts",
-      "function": "createButterfly",
-      "content": "在上一幅图像基础上加入蝴蝶图像"
+      "canvas": "mathArt",
+      "content": "蝴蝶曲线周围有移动的蓝点和旋转的紫色向量，还有变形三角形。可拖动组合创造效果。"
+    },
+    {
+      "type": "teacher",
+      "canvas": "parametric",
+      "content": "展示圆形参数化曲线和椭圆，以及曲线切线。可拖动观察变化。"
+    },
+    {
+      "type": "teacher",
+      "canvas": "dot",
+      "content": "原点处的红点，可拖动改变位置。"
+    },
+    {
+      "type": "teacher",
+      "canvas": "line",
+      "content": "从(1,1)到(2,2)的线段，可拖动改变位置。"
     }
   ]
 }

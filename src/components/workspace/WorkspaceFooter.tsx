@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const ChatFooter = () => {
+const WorkspaceFooter = () => {
   const [message, setMessage] = useState("Ask your question here");
 
   return (
@@ -27,4 +27,4 @@ const ChatFooter = () => {
   );
 };
 
-export default ChatFooter;
+export default WorkspaceFooter;

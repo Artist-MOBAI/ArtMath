@@ -7,7 +7,7 @@ const SideBarList = () => {
         <button className="p-4">
           <i className="ri-arrow-left-s-line text-2xl" />
         </button>
-        <h1 className="p-4 font-serif text-2xl font-bold">{title}</h1>
+        <h1 className="p-4 font-serif text-1.5xl font-bold">{title}</h1>
       </div>
       <div className="flex flex-col">
         {list.map((item) => (

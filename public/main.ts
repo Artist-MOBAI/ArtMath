@@ -1,12 +1,8 @@
 import * as idea from "idea-math";
 
-export function createMathArt(
-  width: number,
-  height: number,
-  container?: HTMLElement,
-) {
+function createMathArt(width: number, height: number, container?: HTMLElement) {
   // 创建画布
-  const canvas = idea.field(width, height).background("#fdfbe5");
+  const canvas = idea.field(width, height).background("#F5F5F5");
   if (container) {
     container.appendChild(canvas.node());
   } else {
@@ -140,3 +136,5 @@ export function createMathArt(
   // 启动动画
   animate();
 }
+
+export default createMathArt;

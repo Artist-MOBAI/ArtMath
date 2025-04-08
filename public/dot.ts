@@ -1,12 +1,8 @@
 import * as idea from "idea-math";
 
-export function createDot(
-  width: number,
-  height: number,
-  container?: HTMLElement,
-) {
+function createDot(width: number, height: number, container?: HTMLElement) {
   // 创建画布
-  const canvas = idea.field(width, height).background("#fdfbe5");
+  const canvas = idea.field(width, height).background("#F5F5F5");
   if (container) {
     container.appendChild(canvas.node());
   } else {
@@ -43,3 +39,5 @@ export function createDot(
   coord.add(dot);
   canvas.add(coord);
 }
+
+export default createDot;
